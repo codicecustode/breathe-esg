@@ -1,0 +1,43 @@
+.shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background: #1a1f36;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 2rem;
+  height: 56px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: auto;
+  color: #7ee8a2;
+}
+
+.nav a {
+  color: #adb5bd;
+  font-size: 0.9rem;
+  padding: 0.25rem 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.nav a:hover, .active {
+  color: #fff !important;
+  border-bottom-color: #7ee8a2 !important;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}

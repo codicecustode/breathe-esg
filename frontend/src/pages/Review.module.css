@@ -1,0 +1,175 @@
+.title { font-size: 1.6rem; font-weight: 700; margin-bottom: 1.25rem; }
+
+.shell { display: flex; gap: 1.5rem; align-items: flex-start; }
+.main { flex: 1; min-width: 0; }
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.tabs { display: flex; gap: .4rem; }
+
+.tab {
+  padding: .35rem .85rem;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  background: #fff;
+  font-size: .85rem;
+  cursor: pointer;
+  color: #374151;
+}
+
+.activeTab {
+  background: #1a1f36;
+  color: #fff;
+  border-color: #1a1f36;
+}
+
+.noteInput {
+  flex: 1;
+  min-width: 200px;
+  padding: .4rem .75rem;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  font-size: .85rem;
+}
+
+.loading { color: #6c757d; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.08);
+  font-size: .85rem;
+}
+
+.table th {
+  background: #f8f9fa;
+  padding: .7rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.table td { padding: .6rem 1rem; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+.table tr:last-child td { border-bottom: none; }
+.suspicious td { background: #fffbeb; }
+.empty { text-align: center; padding: 2rem !important; color: #6c757d; }
+
+.activity { max-width: 220px; }
+.emval { font-weight: 600; }
+.dateCol { font-size: .8rem; color: #6c757d; white-space: nowrap; }
+
+.flag { font-size: .78rem; }
+.flagBadge { color: #b45309; background: #fef3c7; padding: .15rem .45rem; border-radius: 4px; }
+
+.srcbadge {
+  display: inline-block;
+  padding: .15rem .5rem;
+  border-radius: 4px;
+  font-size: .75rem;
+  font-weight: 700;
+  color: #fff;
+}
+.sap { background: #dc2626; }
+.utility { background: #2563eb; }
+.travel { background: #7c3aed; }
+
+.badge {
+  display: inline-block;
+  padding: .18rem .5rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 600;
+}
+.pending  { background: #fef3c7; color: #92400e; }
+.approved { background: #d1fae5; color: #065f46; }
+.rejected { background: #fee2e2; color: #991b1b; }
+
+.edited { font-size: .72rem; color: #6c757d; margin-left: .3rem; font-style: italic; }
+
+.actions { display: flex; gap: .4rem; flex-wrap: wrap; }
+
+.approve, .reject, .auditBtn {
+  padding: .3rem .7rem;
+  border: none;
+  border-radius: 5px;
+  font-size: .8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.approve { background: #d1fae5; color: #065f46; }
+.approve:hover { background: #a7f3d0; }
+.reject { background: #fee2e2; color: #991b1b; }
+.reject:hover { background: #fecaca; }
+.auditBtn { background: #f3f4f6; color: #374151; }
+.auditBtn:hover { background: #e5e7eb; }
+.approve:disabled, .reject:disabled { opacity: .5; cursor: not-allowed; }
+
+.error { color: #dc2626; background: #fee2e2; padding: 1rem; border-radius: 6px; }
+
+/* Audit drawer */
+.drawer {
+  width: 320px;
+  flex-shrink: 0;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+  font-size: .85rem;
+  position: sticky;
+  top: 1rem;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.drawerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .85rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+}
+
+.drawerHeader button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.drawerBody { padding: 1rem; color: #6c757d; }
+
+.auditEvent {
+  padding: .75rem 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.auditEvent:last-child { border-bottom: none; }
+
+.auditAction {
+  display: inline-block;
+  padding: .15rem .5rem;
+  border-radius: 4px;
+  font-size: .75rem;
+  font-weight: 700;
+  margin-bottom: .25rem;
+}
+
+.approved.auditAction { background: #d1fae5; color: #065f46; }
+.rejected.auditAction { background: #fee2e2; color: #991b1b; }
+.created.auditAction  { background: #dbeafe; color: #1e40af; }
+.edited.auditAction   { background: #fef3c7; color: #92400e; }
+.flagged.auditAction  { background: #fde8d8; color: #9a3412; }
+
+.auditMeta { display: block; font-size: .78rem; color: #9ca3af; }
+.auditNote { font-size: .82rem; color: #374151; margin-top: .3rem; font-style: italic; }
