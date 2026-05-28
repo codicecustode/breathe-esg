@@ -1,0 +1,203 @@
+{
+  "Reports": [
+    {
+      "ReportKey": "RPT-2025-Q1-00421",
+      "ReportDate": "2025-01-31",
+      "EmployeeID": "EMP-1042",
+      "Entries": [
+        {
+          "EntryID": "E-10421-01",
+          "EntryType": "AIRFARE",
+          "TransactionDate": "2025-01-08",
+          "AirSegments": [
+            {
+              "DepartureCity": "DEL",
+              "ArrivalCity": "BOM",
+              "FlightNumber": "AI631",
+              "CabinClass": "ECONOMY",
+              "DepartureDate": "2025-01-08",
+              "Distance": 1160,
+              "DistanceUnit": "KM"
+            },
+            {
+              "DepartureCity": "BOM",
+              "ArrivalCity": "DEL",
+              "FlightNumber": "AI632",
+              "CabinClass": "ECONOMY",
+              "DepartureDate": "2025-01-10"
+            }
+          ]
+        },
+        {
+          "EntryID": "E-10421-02",
+          "EntryType": "HOTEL",
+          "TransactionDate": "2025-01-08",
+          "HotelEntries": [
+            {
+              "HotelName": "Taj Lands End",
+              "City": "BOM",
+              "CheckInDate": "2025-01-08",
+              "CheckOutDate": "2025-01-10",
+              "NumNights": 2
+            }
+          ]
+        },
+        {
+          "EntryID": "E-10421-03",
+          "EntryType": "CARRENTAL",
+          "TransactionDate": "2025-01-08",
+          "CarRentalDetails": {
+            "PickupCity": "BOM",
+            "PickupDate": "2025-01-08",
+            "DropoffDate": "2025-01-10",
+            "VehicleClass": "ECONOMY",
+            "RentalDays": 2,
+            "EstimatedKm": 180
+          }
+        }
+      ]
+    },
+    {
+      "ReportKey": "RPT-2025-Q1-00488",
+      "ReportDate": "2025-02-14",
+      "EmployeeID": "EMP-2218",
+      "Entries": [
+        {
+          "EntryID": "E-10488-01",
+          "EntryType": "AIRFARE",
+          "TransactionDate": "2025-02-03",
+          "AirSegments": [
+            {
+              "DepartureCity": "BLR",
+              "ArrivalCity": "LHR",
+              "FlightNumber": "BA118",
+              "CabinClass": "BUSINESS",
+              "DepartureDate": "2025-02-03",
+              "Distance": 8376,
+              "DistanceUnit": "KM"
+            },
+            {
+              "DepartureCity": "LHR",
+              "ArrivalCity": "BLR",
+              "FlightNumber": "BA117",
+              "CabinClass": "BUSINESS",
+              "DepartureDate": "2025-02-10"
+            }
+          ]
+        },
+        {
+          "EntryID": "E-10488-02",
+          "EntryType": "HOTEL",
+          "TransactionDate": "2025-02-03",
+          "HotelEntries": [
+            {
+              "HotelName": "The Langham London",
+              "City": "LHR",
+              "CheckInDate": "2025-02-03",
+              "CheckOutDate": "2025-02-10",
+              "NumNights": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ReportKey": "RPT-2025-Q1-00512",
+      "ReportDate": "2025-03-05",
+      "EmployeeID": "EMP-0887",
+      "Entries": [
+        {
+          "EntryID": "E-10512-01",
+          "EntryType": "AIRFARE",
+          "TransactionDate": "2025-02-18",
+          "AirSegments": [
+            {
+              "DepartureCity": "HYD",
+              "ArrivalCity": "SIN",
+              "FlightNumber": "SQ516",
+              "CabinClass": "ECONOMY",
+              "DepartureDate": "2025-02-18",
+              "Distance": 5746,
+              "DistanceUnit": "KM"
+            },
+            {
+              "DepartureCity": "SIN",
+              "ArrivalCity": "HYD",
+              "FlightNumber": "SQ515",
+              "CabinClass": "ECONOMY",
+              "DepartureDate": "2025-02-22"
+            }
+          ]
+        },
+        {
+          "EntryID": "E-10512-02",
+          "EntryType": "HOTEL",
+          "TransactionDate": "2025-02-18",
+          "HotelEntries": [
+            {
+              "HotelName": "Marina Bay Sands",
+              "City": "SIN",
+              "CheckInDate": "2025-02-18",
+              "CheckOutDate": "2025-02-22",
+              "NumNights": 4
+            }
+          ]
+        },
+        {
+          "EntryID": "E-10512-03",
+          "EntryType": "CARRENTAL",
+          "TransactionDate": "2025-02-19",
+          "CarRentalDetails": {
+            "PickupCity": "SIN",
+            "PickupDate": "2025-02-19",
+            "DropoffDate": "2025-02-21",
+            "VehicleClass": "SEDAN",
+            "RentalDays": 2
+          }
+        }
+      ]
+    },
+    {
+      "ReportKey": "RPT-2025-Q2-00601",
+      "ReportDate": "2025-04-22",
+      "EmployeeID": "EMP-1042",
+      "Entries": [
+        {
+          "EntryID": "E-10601-01",
+          "EntryType": "AIRFARE",
+          "TransactionDate": "2025-04-07",
+          "AirSegments": [
+            {
+              "DepartureCity": "DEL",
+              "ArrivalCity": "CCU",
+              "FlightNumber": "6E321",
+              "CabinClass": "ECONOMY",
+              "DepartureDate": "2025-04-07"
+            },
+            {
+              "DepartureCity": "CCU",
+              "ArrivalCity": "DEL",
+              "FlightNumber": "6E322",
+              "CabinClass": "ECONOMY",
+              "DepartureDate": "2025-04-09"
+            }
+          ]
+        },
+        {
+          "EntryID": "E-10601-02",
+          "EntryType": "HOTEL",
+          "TransactionDate": "2025-04-07",
+          "HotelEntries": [
+            {
+              "HotelName": "ITC Royal Bengal",
+              "City": "CCU",
+              "CheckInDate": "2025-04-07",
+              "CheckOutDate": "2025-04-09",
+              "NumNights": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
